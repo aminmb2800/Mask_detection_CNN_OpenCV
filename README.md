@@ -9,6 +9,7 @@ To get started with this project, you will need to clone the repository and inst
 ### Prerequisites
 
 * Python 3
+* Jupyter 5.3 
 * OpenCV 4.0 or higher
 * TensorFlow 2.0 or higher
 * Keras 2.3 or higher
@@ -24,20 +25,12 @@ git clone https://github.com/aminmb2800/Mask_detection_CNN_OpenCV.git
 2. Install the required libraries using pip:
 
 ```
-pip install opencv-python tensorflow keras numpy
+pip install opencv-python tensorflow keras numpy notebook
 ```
 ## Dataset 
 
 The model is trained on the [Mask Detection Dataset](https://drive.google.com/drive/folders/1Eru9OyBdY5FDRegYcuZoEgR5pKCLPYfa?usp=sharing), which contains over 1376 images of people wearing masks and not wearing masks. The dataset is split into training and testing sets, with 80% of the images used for training and 20% for testing.
 
-### Usage
-
-To use the mask detection CNN, run the Face_mask_detection_CNN_OpenCV.ipynb script:
-
-1. In the current of directory file, just need to run in terminal 
-```
-jupyter notebook Face_mask_detection_CNN_OpenCV.ipynb
-```  
 
 ### Model Architecture
 
@@ -65,3 +58,13 @@ ________________________________________________________________
 **Trainable params: 684,458**
 
 **Non-trainable params: 0**
+
+
+### Usage
+
+To use the mask detection CNN, run the Face_mask_detection_CNN_OpenCV.ipynb script:
+
+1. In the current of directory file, just need to run in terminal: 
+```
+jupyter notebook Face_mask_detection_CNN_OpenCV.ipynb
+```  
