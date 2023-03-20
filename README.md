@@ -34,7 +34,10 @@ The model is trained on the [Mask Detection Dataset](https://drive.google.com/dr
 
 To use the mask detection CNN, run the Face_mask_detection_CNN_OpenCV.ipynb script:
 
-1. In the current of directory file, just need to run in terminal ```jupyter notebook Face_mask_detection_CNN_OpenCV.ipynb```  
+1. In the current of directory file, just need to run in terminal 
+```
+jupyter notebook Face_mask_detection_CNN_OpenCV.ipynb
+```  
 
 ### Model Architecture
 
