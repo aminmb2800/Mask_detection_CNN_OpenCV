@@ -27,6 +27,18 @@ git clone https://github.com/aminmb2800/Mask_detection_CNN_OpenCV.git
 ```
 pip install opencv-python tensorflow keras numpy matplotlib
 ```
+## Dataset 
+
+The model is trained on the Mask Detection Dataset, which contains over 1376 images of people wearing masks and not wearing masks. The dataset is split into training and testing sets, with 80% of the images used for training and 20% for testing.
+{
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "And shorthand for links:\n",
+    "\n",
+    "[Jupyter's website](https://jupyter.org)"
+   ]
+  }
 
 ### Usage
 
