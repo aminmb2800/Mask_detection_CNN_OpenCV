@@ -39,50 +39,23 @@ To use the mask detection CNN, run the Face_mask_detection_CNN_OpenCV.ipynb scri
 The CNN model is built using TensorFlow's Keras API. It has the following architecture:
 
 
-_________________________________________________________________
-Layer (type)          |        Output Shape          |     Param #
-=================================================================
-conv2d (Conv2D)              (None, 62, 62, 32)        896
-_________________________________________________________________
-max_pooling2d (MaxPooling2D) (None, 31, 31, 32)        0
-_________________________________________________________________
-conv2d_1 (Conv2D)            (None, 29, 29, 64)        18496
-_________________________________________________________________
-max_pooling2d_1 (MaxPooling2 (None, 14, 14, 64)        0
-_________________________________________________________________
-conv2d_2 (Conv2D)            (None, 12, 12, 128)       73856
-_________________________________________________________________
-max_pooling2d_2 (MaxPooling2 (None, 6, 6, 128)          0
-_________________________________________________________________
-flatten (Flatten)            (None, 4608)              0
-_________________________________________________________________
-dense (Dense)                (None, 128)               589952
-_________________________________________________________________
-dropout (Dropout)            (None, 128)               0
-_________________________________________________________________
-dense_1 (Dense)              (None, 2)                 258
-=================================================================
-Total params: 684,458
-Trainable params: 684,458
-Non-trainable params: 0
-_________________________________________________________________
+________________________________________________________________
+
 
 | Layer (type)         | Output Shape               | Param                                |
 | -------------------- | ---------------------------|------------------------------------- |
 | conv2d (Conv2D)      |        (None, 62, 62, 32)  |      896                             |
 | max_pooling2d (MaxPooling2D)| (None, 31, 31, 32)  |       0                              |
 |conv2d_1 (Conv2D)     |       (None, 29, 29, 64)   |     18496                            |
-|max_pooling2d_1 (MaxPooling2 |(None, 14, 14, 64)   |     0|
+|max_pooling2d_1 (MaxPooling2 |(None, 14, 14, 64)   |       0                              |
+|conv2d_2 (Conv2D)     |        (None, 12, 12, 128) |     73856                            |
+|max_pooling2d_2 (MaxPooling2 |(None, 6, 6, 128)    |       0                              |
+|flatten (Flatten)     |       (None, 4608)         |       0                              |
+|dense (Dense)         |       (None, 128)          |     589952                           |
+|dropout (Dropout)     |       (None, 128)          |       0                              |
+|dense_1 (Dense)       |       (None, 2)            |      258                             |
 
-conv2d_2 (Conv2D) |           (None, 12, 12, 128)   |    73856|
-
-max_pooling2d_2 (MaxPooling2 |(None, 6, 6, 128) |         0|
-
-flatten (Flatten)  |          (None, 4608)    |          0|
-
-dense (Dense)           |     (None, 128)     |          589952|
-
-dropout (Dropout)   |         (None, 128)     |          0|
-
-dense_1 (Dense)          |    (None, 2)          |       258
-
+Total params: 684,458
+Trainable params: 684,458
+Non-trainable params: 0
+_________________________________________________________________
