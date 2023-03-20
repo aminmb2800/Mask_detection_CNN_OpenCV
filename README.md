@@ -37,7 +37,7 @@ To use the mask detection CNN, run the Face_mask_detection_CNN_OpenCV.ipynb scri
 ### Model Architecture
 
 The CNN model is built using TensorFlow's Keras API. It has the following architecture:
-
+'''
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #
 =================================================================
@@ -66,6 +66,7 @@ Trainable params: 684,458
 Non-trainable params: 0
 _________________________________________________________________
 
+'''
 
 
 
