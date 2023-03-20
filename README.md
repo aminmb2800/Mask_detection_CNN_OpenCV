@@ -21,15 +21,20 @@ To get started with this project, you will need to clone the repository and inst
 
 ```
 git clone https://github.com/aminmb2800/Mask_detection_CNN_OpenCV.git
+```
+2. Install the required libraries using pip:
 
 ```
+pip install opencv-python tensorflow keras numpy matplotlib
+```
 
+### Usage
 
+To use the mask detection CNN, run the Face_mask_detection_CNN_OpenCV.ipynb script:
 
 The goal is to create a Deep Learning model to detect in real-time whether a person is wearing a face mask or not using CNN and OpenCV
 
 
-For a complete list of `hljs` classes, see [their CSS class reference](https://github.com/highlightjs/highlight.js/blob/master/docs/css-classes-reference.rst#stylable-classes).  To see which classes are used by a specific language, find the language [from the complete list](https://github.com/highlightjs/highlight.js/tree/master/src/languages) and look for properties called `className`.
 
 
 To access to the data https://drive.google.com/drive/folders/1Eru9OyBdY5FDRegYcuZoEgR5pKCLPYfa?usp=sharing
