@@ -55,8 +55,8 @@ ________________________________________________________________
 |dropout (Dropout)     |       (None, 128)          |       0                              |
 |dense_1 (Dense)       |       (None, 2)            |      258                             |
 
-**Total params: 684,458
+**Total params: 684,458**
 
-**Trainable params: 684,458
+**Trainable params: 684,458**
 
-**Non-trainable params: 0
+**Non-trainable params: 0**
