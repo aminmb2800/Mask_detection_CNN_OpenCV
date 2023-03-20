@@ -29,8 +29,8 @@ pip install opencv-python tensorflow keras numpy matplotlib
 ```
 ## Dataset 
 
-The model is trained on the Mask Detection Dataset, which contains over 1376 images of people wearing masks and not wearing masks. The dataset is split into training and testing sets, with 80% of the images used for training and 20% for testing.
-[Jupyter's website](https://jupyter.org)
+The model is trained on the [Mask Detection Dataset](https://drive.google.com/drive/folders/1Eru9OyBdY5FDRegYcuZoEgR5pKCLPYfa?usp=sharing), which contains over 1376 images of people wearing masks and not wearing masks. The dataset is split into training and testing sets, with 80% of the images used for training and 20% for testing.
+
 
 ### Usage
 
@@ -41,4 +41,4 @@ The goal is to create a Deep Learning model to detect in real-time whether a per
 
 
 
-To access to the data https://drive.google.com/drive/folders/1Eru9OyBdY5FDRegYcuZoEgR5pKCLPYfa?usp=sharing
+To access to the data 
