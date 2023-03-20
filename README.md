@@ -40,7 +40,7 @@ The CNN model is built using TensorFlow's Keras API. It has the following archit
 
 
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #
+Layer (type)          |        Output Shape          |     Param #
 =================================================================
 conv2d (Conv2D)              (None, 62, 62, 32)        896
 _________________________________________________________________
