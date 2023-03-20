@@ -16,7 +16,18 @@ To get started with this project, you will need to clone the repository and inst
 * Matplotlib 3.2 or higher
 
 ### Installing
+
+1. Clone the repository to your local machine:
+
+```
+git clone https://github.com/aminmb2800/Mask_detection_CNN_OpenCV.git
+
+```
+
+
+
 The goal is to create a Deep Learning model to detect in real-time whether a person is wearing a face mask or not using CNN and OpenCV
+
 
 For a complete list of `hljs` classes, see [their CSS class reference](https://github.com/highlightjs/highlight.js/blob/master/docs/css-classes-reference.rst#stylable-classes).  To see which classes are used by a specific language, find the language [from the complete list](https://github.com/highlightjs/highlight.js/tree/master/src/languages) and look for properties called `className`.
 
