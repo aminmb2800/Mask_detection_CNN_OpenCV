@@ -67,28 +67,24 @@ Trainable params: 684,458
 Non-trainable params: 0
 _________________________________________________________________
 
-| Category             | Shortcut                   | Effect                               |
+| Layer (type)         | Output Shape               | Param                                |
 | -------------------- | ---------------------------|------------------------------------- |
-| Help                 | ?, SHIFT + F1              | Show keyboard shortcuts              |
-| File                 | CTRL + S                   | Save SVG                             |
-| History              | CTRL + Z                   | Undo                                 |
-| History              | CTRL + SHIFT + Z, CTRL + Y | Redo                                 |
-| Relationship editing | ALT + CLICK                | Add relationship vertex              |
-| Relationship editing | ALT + SHIFT + CLICK        | Add label anchor relationship vertex |
-| Relationship editing | DELETE, BACKSPACE          | Remove relationship vertex           |
-| Zoom                 | CTRL + =, CTRL + wheel     | Zoom in                              |
-| Zoom                 | CTRL + -, CTRL + wheel     | Zoom out                             |
-| Zoom                 | CTRL + 9                   | Zoom - fit                           |
-| Zoom                 | CTRL + 0                   | Zoom 100%                            |
-| Select               | CTRL + A                   | Select all                           |
-| Select               | ESC                        | Deselect                             |
-| Move                 | UP                         | Move up                              |
-| Move                 | SHIFT + UP                 | Move up fast                         |
-| Move                 | DOWN                       | Move down                            |
-| Move                 | SHIFT + DOWN               | Move down fast                       |
-| Move                 | RIGHT                      | Move right                           |
-| Move                 | SHIFT + RIGHT              | Move right fast                      |
-| Move                 | LEFT                       | Move left                            |
-| Move                 | SHIFT + LEFT               | Move left fast                       |
-
+| conv2d (Conv2D)      |        (None, 62, 62, 32)  |      896                             |
+| max_pooling2d (MaxPooling2D)| (None, 31, 31, 32)  |       0                              |
+_________________________________________________________________
+conv2d_1 (Conv2D)            (None, 29, 29, 64)        18496
+_________________________________________________________________
+max_pooling2d_1 (MaxPooling2 (None, 14, 14, 64)        0
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 12, 12, 128)       73856
+_________________________________________________________________
+max_pooling2d_2 (MaxPooling2 (None, 6, 6, 128)          0
+_________________________________________________________________
+flatten (Flatten)            (None, 4608)              0
+_________________________________________________________________
+dense (Dense)                (None, 128)               589952
+_________________________________________________________________
+dropout (Dropout)            (None, 128)               0
+_________________________________________________________________
+dense_1 (Dense)              (None, 2)                 258
 
